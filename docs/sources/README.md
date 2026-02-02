@@ -1,0 +1,9 @@
+- Sky-Hi News: Grand County sees its deadliest year on roadways in a decade
+    - Type: Web
+    - Link: [direct link](https://www.skyhinews.com/news/grand-county-sees-its-deadliest-year-on-roadways-in-a-decade/)
+    - Link: [HTML file](web/2026-02-01-sky_hi_news_grand_county_crashes.html)
+    - Date captured: 2026-02-01
+    - Source date: 2025-12-31
+    - Author: Gino Savaria
+    - Why: Provides a lot of background information on fatal accidents in Grand County. 
+    - Trust level: High
