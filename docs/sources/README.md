@@ -6,7 +6,6 @@
     - Source date: 2025-12-31
     - Author: Gino Savaria
     - Why: Provides a lot of background information on fatal accidents in Grand County. 
-    - Trust level: High
 
 - Sky-Hi News: How will Grand County make its roads safer?
     - Type: Web
@@ -16,7 +15,6 @@
     - Source date: 2025-12-12
     - Author: Gino Savaria
     - Why: Lots of detail information on the safety symposium held by Grand County officials. Also includes a 2 hour youtube video of the event.
-    - Trust level: High
 
 - Grandby Comprehensive Master Plan 2023
     - Type: PDF
@@ -26,3 +24,12 @@
     - Source date: 2023-07-01
     - Author: Town of Grandby
     - Why: This source is huge but outlines a multi year roadmap for the town of Grandby. I believe it includes information that will be relevant to the rec center project. I think it's worth having as a solid reference and source to get background information on this towns goals. 
+
+- Ski-Hi News: Residents in the Granby north service area could see their water rates increase up to 50% in 2024
+    - Type: Web
+    - Link [direct link](https://www.skyhinews.com/news/residents-in-the-granby-north-service-area-could-see-their-water-rates-increase-up-to-50-in-2024/)
+    - Link: [HTML file](web/2026-02-17-sky_hi_news_granby_water_rate_increase.html)
+    - Date captured: 2026-02-17
+    - Source date: Nov 10, 2023
+    - Author: Emily Gutierrez
+    - Why: This article has an image of the planned Granby Market Square. This is relevant because it lies on the intersection of Agate avenue and 4th street. One of the exact intersections of interest for us. 

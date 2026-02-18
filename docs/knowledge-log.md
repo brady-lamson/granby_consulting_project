@@ -10,6 +10,20 @@
 
 # Historic log entries
 
+- 2026-02-17
+    - Learned:
+        - The town has had a lot of previous work from CDOT and SGM on various traffic calming measures on some key intersections on Agate avenue. Agate avenue IS highway 40 and runs through the center of town. 6th street is the first one someone would encounter off of the highway and 4th avenue is the next intersection. 
+        - The documents provided to us on Friday both examine the necessity of traffic calming measures such as street lights and use observed vehicle and pedestrian counts across 3 days to make their assessments. The larger of the two documents is a signal warrant study for 4th and 6th street and compares their observed counts to the criteria set by 8 different warrants. Some of these pertain to traffic volume, some pedestrian, some are accident related. Only one needs to pass to justify a light and the first 3 related to traffic volume all passed. None of the others were applicable or met the criteria to pass. 
+        - The warrant study also examined other possible traffic calming measures, such as bulbouts, roundabouts, flashing pedestrian lights and others. They found the other options infeasible for a variety of reasons. Roundabouts were cost prohibitive, and the pedestrian lights and other measures were solving problems that didn't exist at those intersections such as speeding or accidents (1, page 21). Accidents in Granby don't tend to happen IN town and occur around Grand county itself (2). 
+        - Pedestrian crossing across agate seems useless on 6th street due to there being nothing on the other side, just a fence and a hill. 4th street however does have stuff on the other side, such as a cafe. 
+        - Agate avenue is quite wide, having essentially 5 lanes for a pedestrian to cross at points. There are crosswalks at 4th street but no stopsigns on the main road, having only yield signs up. 
+        - It appears that traffic modeling was performed using a proprietary tool called [Synchro](https://www.cubic.com/transportation/products/intelligent-transportation-solutions/intersection-optimization/synchro-studio#contact-us). This may be a problem when it comes to doing our own modeling...
+    -  Evidence:
+        - [1, Agate Signal Warrant Analysis](sources/pdf/AgateSignalWarrant_250619r_signed.pdf)
+        - [2, Sky Hi News Grand County Crashes](sources/web/2026-02-01-sky_hi_news_grand_county_crashes.html)
+    - Thoughts:
+        It is currently unclear to me what kind of work we will be doing on this project. Are we going to be replicating these results? Going beyond them? If we're replicating how do we learn the modeling techniques used by SGM and CDOT? It seems to use software appears to be proprietary. My understanding is our results will help back up the decision to install new streetlights, but what will those results be and how will we collect them? 
+
 - 2026-02-12
     - Learned: 
         - Granby is a small town of around 2200 people on only 12.7 square miles of land. (page 20)
