@@ -8,3 +8,5 @@
 |PPH|Pedestrians per hour|
 |VPD|Vehicles per day|
 |RRFB|Rectangular rapid flashing beacons|
+|MOE|Measures of Effectiveness|
+|LOS|Level of service|
