@@ -1,0 +1,34 @@
+Why no pedestrian volume input?
+The HSM has two different pedestrian models depending on intersection type. For signalized intersections, 
+they had enough data to build a model that uses actual pedestrian crossing counts (PedVol) as a direct 
+input. For stop-controlled intersections like yours, they didn't have enough ped count data to do that. 
+So instead they built a simpler model that uses proxy variables — things that indicate pedestrians are likely present.
+
+Number of approaches with left-turn lanes (signalized): At a signalized intersection, some approaches might 
+have a dedicated left-turn lane with its own arrow signal. This counts how many of the 3 or 4 approaches have 
+that. Yours is stop-controlled, not signalized, so this doesn't apply. The unsignalized version (which you 
+already set to 1) is the one that matters for you.
+
+Number of approaches with right-turn lanes (signalized): Same idea — some signalized intersections have 
+dedicated right-turn-only lanes. Think of a busy intersection where there's a separate lane just for 
+right turns with its own island. Your intersection doesn't have a signal at all, so this is irrelevant.
+
+Number of approaches with left-turn signal phasing: This is asking how many of the approaches have a 
+protected left-turn phase — meaning a green arrow where only left-turners go. Again, no signal at 
+your intersection.
+
+Type of left-turn signal phasing for Legs 1–4: This gets more specific — is each leg's left turn 
+"permissive" (you yield to oncoming traffic), "protected" (green arrow), or "protected-permissive" 
+(arrow then yield)? No signal, so Not Applicable.
+
+Right-turn-on-red prohibited: At some signalized intersections, right-on-red is banned. Not relevant to you.
+
+Red light cameras: Does the signal have cameras that ticket red-light runners? No signal, no cameras.
+
+PedVol: Total daily pedestrian crossings at a signalized intersection. The signalized pedestrian SPF 
+uses this as a direct input variable. Your stop-controlled model uses schools/alcohol instead.
+
+A pedestrian crossing with curb ramps and extensions has a CMF of 0.63 Cmfclearinghouse, meaning a 
+37% reduction in crashes. However, that CMF has a "Cannot Be Rated" star quality, meaning the study 
+behind it wasn't super rigorous. It's from a 2004 ITE report. https://cmfclearinghouse.fhwa.dot.gov/detail.php?facid=1786 
+

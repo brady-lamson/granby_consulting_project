@@ -1,0 +1,41 @@
+SPF + CMF approach:
+It's all math on paper (or a spreadsheet). No special software needed
+You gather your site data (AADT, geometry, crash history)
+You plug numbers into the SPF equation, then get baseline crash prediction
+You multiply by CMFs for your proposed treatment and get new crash prediction
+The difference is your estimated safety benefit
+
+The SPF base equation for an intersection is literally just this:
+N(spf) = e^(a + b × ln(AADTmaj) + c × ln(AADTmin))
+Where:
+N(spf) uses only AADT values (the simple equation above)
+CMF₁ might be for lane width
+CMF₂ might be for lighting
+CMF₃ might be for left-turn lanes
+And so on for every site feature that differs from base conditions
+C is the Colorado calibration factor
+
+The pedestrian base equation for a signalized intersection looks something like:
+N(pedbase) = e^(a + b × ln(AADTtotal) + c × ln(AADTmin) + d × ln(PedVol))
+f(pedi) = e^(a × bus stops + b × schools + c × alcohol establishments)
+N(ped) = N(pedbase) × f(pedi)
+
+Simulation + SSAM approach:
+You build a virtual model of your intersection
+Simulated cars and pedestrians drive/walk through it
+SSAM analyzes their trajectories and counts conflicts
+You modify the model (add the bulb-out, change the signal), rerun it
+Compare conflict counts before and after
+Software cost: free if you use SUMO + SSAM, expensive if you use VISSIM
+
+SUMO:
+https://sumo.dlr.de/docs/index.html
+open source alternative to synchro/VISSIM
+
+SSAM:
+https://www.fhwa.dot.gov/publications/research/safety/08049/
+The Surrogate Safety Assessment Model (SSAM) is a software tool developed by the FHWA to analyze 
+vehicle trajectory data exported from micro-simulation models (like Vissim) to identify, classify, 
+and evaluate traffic conflicts (rear-end, lane change, crossing). It allows for proactive safety 
+assessment by measuring potential collisions before they occur, using metrics like Time-to-Collision (TTC) 
+and Post-Encroachment Time (PET).
