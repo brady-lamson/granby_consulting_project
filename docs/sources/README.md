@@ -16,6 +16,14 @@
 - Author: SGM - Eric Mahoney, EI - Dan Cokley, PE
 - Why: This report contains the pedestrian crossing analysis on Mesa St. Contains their observed values on pedestrian volume and their methods of scaling these values based on the time of year.
 
+### Colorado Department of Transportation - Online Transportation Information System
+
+- Link: [Direct](dtdapps.coloradodot.info/otis/TrafficData#ui/0/1/2/station/101868/criteria/31605//true/true/)
+- Date captured: 2026-03-08
+- Source date: Current
+- Author: CDOT
+- Why: Contains official measurements of traffic volume across all of Colorado. Contains key metrics like AADT, DHV, and others. Key source for everything related to Colorado traffic information. 
+
 # Supplemental Sources
 
 ### Sky-Hi News: Grand County sees its deadliest year on roadways in a decade

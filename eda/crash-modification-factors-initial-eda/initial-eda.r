@@ -1,9 +1,7 @@
 library(dplyr)
-df <- readr::read_csv("data/crash-modification-factors/cmfclearinghouse.csv.gz")
+df <- readr::read_csv("data/crash-modification-factors/cmfclearninghouse.csv.gz")
 
-readr::write_csv(df, "cmfclearninghouse.csv.gz")
-
-# df %>% View()
+df %>% View()
 
 df <- df %>%
     select(
@@ -41,6 +39,7 @@ df <- df %>%
 
 cmfs_of_interest <- df %>%
     filter(
+      stringr::str_detect(cmname_cleaned, "signal") & !stringr::str_detect(cmname_cleaned, "roundabout")
         # stringr::str_detect(cmname_cleaned, "signal|pedestrian|crosswalk|curb|extension|unsignalized|intersection") &
         # !stringr::str_detect(cmname_cleaned, "icws|cfi|dare|rcut|riro|mut|twltl|roundabout|centerline|additional")
     ) %>%
@@ -70,5 +69,6 @@ df %>%
     View()
 
 
-
+# ID for installing a signal is 39
+df %>% filter(cmid == 39) %>% View()
 
